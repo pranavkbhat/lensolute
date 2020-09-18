@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dosis:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/others.css')}}">
+{% endblock %}
+
+{% block body %}
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>WEDDING</h1>
+</div>
+<div class="story">
+  <p><i>"Marriages are made in heaven"</i>, that's what people say, but who has lived and revived to tell the tale of heaven and its ways?. But what we know as obvious is the jouissance that fills the air and all the good wishes in each of our hearts which makes the heaven happen on earth.<br>
+  I was glad to witness many such heavens happen and be a part of the family during the experience.<br>It all happens so fast and so beautifully, it's an adrenaline rush clicking at a marriage judging and trying to resist the urge to capture every moment because everything is elysian; here are the few of my personal close to heart shots showcasing different spontaneous emotions and moments, each one tells a story.</p>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="static/css/wedding/3.JPG"style="width:100%">
+    <img src="static/css/wedding/2.JPG"style="width:100%">
+    <img src="static/css/wedding/12.JPG" style="width:100%">
+    <img src="static/css/wedding/10.JPG"style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/wedding/1.JPG" style="width:100%">
+    <img src="static/css/wedding/5.JPG" style="width:100%">
+    <img src="static/css/wedding/8.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/wedding/6.JPG" style="width:100%">
+    <img src="static/css/wedding/11.JPG" style="width:100%">
+    <img src="static/css/wedding/9.JPG" style="width:100%">
+    <img src="static/css/wedding/13.JPG" style="width:100%">
+    <img src="static/css/wedding/7.JPG" style="width:100%">
+  </div>
+    <!--to be used when in tablet or mobile view-->
+    <div class="column2">
+      <img src="static/css/wedding/3.JPG"style="width:100%">
+      <img src="static/css/wedding/2.JPG"style="width:100%">
+      <img src="static/css/wedding/12.JPG" style="width:100%">
+      <img src="static/css/wedding/10.JPG"style="width:100%">
+      <img src="static/css/wedding/7.JPG" style="width:100%">
+      <img src="static/css/wedding/13.JPG" style="width:100%">
+    </div>
+    <div class="column2">
+      <img src="static/css/wedding/1.JPG" style="width:100%">
+      <img src="static/css/wedding/5.JPG" style="width:100%">
+      <img src="static/css/wedding/8.JPG" style="width:100%">
+      <img src="static/css/wedding/6.JPG" style="width:100%">
+      <img src="static/css/wedding/11.JPG" style="width:100%">
+      <img src="static/css/wedding/9.JPG" style="width:100%">
+    </div>
+</div>
+{% endblock %}

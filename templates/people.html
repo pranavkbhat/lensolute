@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dosis:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/others.css')}}">
+{% endblock %}
+
+{% block body %}
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>PEOPLE</h1>
+</div>
+<div class="story">
+  <p>The most advanced and sophosticated intelligence on earth, we all are glad to be a part of this species to be able to stay on top of the foodchain, with all this intelligence yet one dwells in his own narrow world of self centred troubles, as an individual or even as a part of society or culture is what we barricade and differentiate ourselves while the bigger picture is we are the most IMPORTANT part of this planet.<br>
+  With all the different forms of art, culture and technology that's constantly updating to a new higher level everytime when the refresh button is hit in this infinitely long time-line of human history how beautiful it is when one can see or siez a memory from an instance of this fast paced life.<br>Here are the few beautiful moments of amazing humans from my period whom i tried to freeze in their natural and aesthetic lively forms, try to live that moment with each picture roling down</p>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="static/css/people/two.jpg"style="width:100%">
+    <img src="static/css/people/one.jpg"style="width:100%">
+    <img src="static/css/people/nine.JPG" style="width:100%">
+    <img src="static/css/people/three.jpeg"style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/people/five.JPG" style="width:100%">
+    <img src="static/css/people/six.jpeg" style="width:100%">
+    <img src="static/css/people/seven.jpg" style="width:100%">
+    <img src="static/css/people/eight.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/people/four.jpg" style="width:100%">
+    <img src="static/css/people/ten.JPG" style="width:100%">
+    <img src="static/css/people/eleven.JPG" style="width:100%">
+    <img src="static/css/people/twelve.JPG" style="width:100%">
+  </div>
+    <!--to be used when in tablet or mobile view-->
+    <div class="column2">
+      <img src="static/css/people/two.jpg"style="width:100%">
+      <img src="static/css/people/one.jpg"style="width:100%">
+      <img src="static/css/people/nine.JPG" style="width:100%">
+      <img src="static/css/people/three.jpeg"style="width:100%">
+      <img src="static/css/people/ten.JPG" style="width:100%">
+      <img src="static/css/people/eleven.JPG" style="width:100%">
+    </div>
+    <div class="column2">
+      <img src="static/css/people/five.JPG" style="width:100%">
+      <img src="static/css/people/six.jpeg" style="width:100%">
+      <img src="static/css/people/seven.jpg" style="width:100%">
+      <img src="static/css/people/eight.JPG" style="width:100%">
+      <img src="static/css/people/four.jpg" style="width:100%">
+      <img src="static/css/people/twelve.JPG" style="width:100%">
+    </div>
+</div>
+{% endblock %}

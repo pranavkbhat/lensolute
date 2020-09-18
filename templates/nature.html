@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dosis:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/others.css')}}">
+{% endblock %}
+
+{% block body %}
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>NATURE</h1>
+</div>
+<div class="story">
+  <p>For all we know in this vast wide spread infinite universe which is growing and accelerating greater than the speeds of light as you read this, Earth is the only known spec of dust planet that sustains life and diverse in its forms, no other planet in the known lengths of universe is as habitable and full of life as that of earth.<br>By stating this much it would clearly intimidate a sane person to appreciate and ignite the curiosity to observe the simple and natural things around us, all the harmony between living and stale forms of matter around us.<br>Simple yet complex, beautiful yet hiding the horrific forms within, from all the places i have been to, below are the stills natural yet tailored into a frame to enchance the visual experience of the viewer and to remind you once again <i>"Our Home is losing its balance to sustain this beauty, its us who have to act to conserve our ONLY home"</i></p>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="static/css/nature/one.jpeg"style="width:100%">
+    <img src="static/css/nature/four.jpeg"style="width:100%">
+    <img src="static/css/nature/five.JPG" style="width:100%">
+    <img src="static/css/nature/two.JPG"style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/nature/eight.JPG" style="width:100%">
+    <img src="static/css/nature/nine.jpeg" style="width:100%">
+    <img src="static/css/nature/fourteen.jpg" style="width:100%">
+    <img src="static/css/nature/seven.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/nature/twelve.JPG" style="width:100%">
+    <img src="static/css/nature/three.JPG" style="width:100%">
+    <img src="static/css/nature/ten.JPG" style="width:100%">
+    <img src="static/css/nature/fifteen.JPG" style="width:100%">
+  </div>
+
+    <!--to be used when in tablet or mobile view-->
+    <div class="column2">
+      <img src="static/css/nature/one.jpeg"style="width:100%">
+      <img src="static/css/nature/four.jpeg"style="width:100%">
+      <img src="static/css/nature/five.JPG" style="width:100%">
+      <img src="static/css/nature/two.JPG"style="width:100%">
+      <img src="static/css/nature/three.JPG" style="width:100%">
+      <img src="static/css/nature/ten.JPG" style="width:100%">
+    </div>
+    <div class="column2">
+      <img src="static/css/nature/eight.JPG" style="width:100%">
+      <img src="static/css/nature/nine.jpeg" style="width:100%">
+      <img src="static/css/nature/fourteen.jpg" style="width:100%">
+      <img src="static/css/nature/seven.JPG" style="width:100%">
+      <img src="static/css/nature/twelve.JPG" style="width:100%">
+      <img src="static/css/nature/fifteen.JPG" style="width:100%">
+    </div>
+
+</div>
+
+{% endblock %}

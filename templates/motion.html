@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dosis:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/motion.css')}}">
+{% endblock %}
+
+{% block body %}
+    <div class="header">
+        <h1>MOTION</h1>
+    </div>
+    <div class="row">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8o_VLmP2o3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4gOaD5XQH-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EMZZ8vTLb-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h0SPGBW6aQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    </div>
+{% endblock %}

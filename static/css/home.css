@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 40%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("home/_MG_0394.JPG"); }
+  .img2 { background-image: url("home/_MG_4032.jpg"); }
+  .img3 { background-image: url("home/_MG_6781.jpg"); }
+  .img4 { background-image: url("home/_MG_4286.jpg"); }
+  .img5 { background-image: url("home/_MG_1903.jpg"); }
+  .img6 { background-image: url("home/_MG_0644.JPG"); }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/opacity/see-through */
+    color: white;
+    border: 5px solid #ffffff;
+    padding: 10px;
+  }
+
+  /* Text next to Pb */
+  .a {
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+  }
+
+  /*for tablet and below*/
+  @media (max-device-width: 768px)
+  {
+    .a{
+      font-size : 4.88vw;
+    }
+    .bg-text{
+      font-size: 4.88vw;
+      padding: 0.97vw;
+      border: 0.488vw solid white;
+    }
+  }

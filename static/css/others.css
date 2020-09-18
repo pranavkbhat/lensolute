@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0%;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.7em;
+  margin-block-end: 0.0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  width: fit-content;
+}
+
+.header {
+  font-family: 'Cinzel', serif;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-left: 10vw;
+  padding-top: 32px;
+  width: fit-content;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.story {
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  text-align: justify;
+  padding-left: 10vw;
+  padding-right: 30vw;
+  padding-bottom: 32px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Create 3 equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 24px;
+  vertical-align: middle;
+}
+
+.column2{
+  display: none;
+}
+
+/*for tablet*/
+@media (max-device-width: 768px)
+{
+ .row{
+   padding:1vw;
+ }
+ .column{
+   display: none;
+ }
+ .column2{
+   display: inline;
+   flex: 50%;
+   padding: 1vw;
+ }
+ .column2 img{
+   margin-top: 2vw;
+   vertical-align: middle;
+ }  
+ .story{
+  padding-right: 10vw;
+ } 
+}
+
+/*for phones*/
+@media (max-device-width: 425px)
+{ 
+  h1{
+    margin-block-start: 1em;
+    font-size: 10vw;
+  }
+  .story{
+    font-size: 4vw ;
+  }
+  .column2{
+    flex: 100%;
+  }
+}

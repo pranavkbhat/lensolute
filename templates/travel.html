@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dosis:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static',filename='css/others.css')}}">
+{% endblock %}
+
+{% block body %}
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>TRAVEL</h1>
+</div>
+<div class="story">
+  <p>There is a famous saying that goes as <i>"The Journey is more important and beautiful than the Destination" </i>,  for all we know we were descendents of nomadic ancestors where survival meant keeping up with a constant move, the soul is a wanderer if we have to put it bluntly.<br>Travel is an emotion and a mighty topic to unravel with just words, but as what we comprehend is that a single Picture can describe and tell more than what mere words can.<br>I, as a photographer have tried to capture this essence and livelyness from all the few places I have traveled to not to just tell stories through my captures, instead to make you as a viewer, be part of my journey.</p>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column">
+    <img src="static/css/travel/two.JPG"style="width:100%">
+    <img src="static/css/travel/three.JPG"style="width:100%">
+    <img src="static/css/travel/nine.jpg" style="width:100%">
+    <img src="static/css/travel/one.jpg"style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/travel/six.JPG" style="width:100%">
+    <img src="static/css/travel/four.JPG" style="width:100%">
+    <img src="static/css/travel/seven.jpg" style="width:100%">
+    <img src="static/css/travel/eight.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="static/css/travel/five.JPG" style="width:100%">
+    <img src="static/css/travel/eleven.JPG" style="width:100%">
+    <img src="static/css/travel/ten.JPG" style="width:100%">
+    <img src="static/css/travel/twelve.jpg" style="width:100%">
+  </div>
+
+      <!--to be used when in tablet or mobile view-->
+    <div class="column2">
+      <img src="static/css/travel/two.JPG"style="width:100%">
+      <img src="static/css/travel/three.JPG"style="width:100%">
+      <img src="static/css/travel/nine.jpg" style="width:100%">
+      <img src="static/css/travel/one.jpg"style="width:100%">
+      <img src="static/css/travel/eleven.JPG" style="width:100%">
+      <img src="static/css/travel/ten.JPG" style="width:100%">
+    </div> 
+    <div class="column2">
+      <img src="static/css/travel/six.JPG" style="width:100%">
+      <img src="static/css/travel/four.JPG" style="width:100%">
+      <img src="static/css/travel/seven.jpg" style="width:100%">
+      <img src="static/css/travel/eight.jpg" style="width:100%">
+      <img src="static/css/travel/five.JPG" style="width:100%">
+      <img src="static/css/travel/twelve.jpg" style="width:100%">
+    </div> 
+</div>
+
+
+{% endblock %}
